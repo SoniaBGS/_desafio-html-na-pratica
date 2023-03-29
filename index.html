@@ -1,0 +1,643 @@
+<html>
+
+
+<head>
+    <title>Aprendendo HTML na prática</title>
+</head>
+
+<body bgcolor="Lavender">
+    <h1>Aprendendo HTML na Prática - DIO.me<sup>®</sup></h1>
+    <hr>
+
+    <p>Esta página é um exercício/ desafio do curso conduzido pelo <strong>Prof. Diogo Medeiros Mainardes</strong></p>
+    <p>Desenvolvedor Sênior / Tech Lead
+        @diogomainardes.dev </p>
+    <p>Realizado na plataforma <strong>DIO - Digital Inovation One</strong></p>
+    <p>Está sendo uma excelente oportunidade para rever conteúdos que já vi em outros cursos na DIO, mas que me acendeu
+        a esperança de poder dizer que ao término dessa formação, domino essa linguagem de marcaçao de texto tão
+        essencial para uma carreira de
+        programação.</p>
+    <blockquote>
+        "Faça coisas. Seja curioso, persistente. Não espere por um empurrão da inspiração ou por um beijo da sociedade
+        na sua testa. Preste atenção. É tudo sobre prestar atenção. É tudo sobre captar o máximo que você puder do que
+        está
+        por aí e não deixar que desculpas e que a monotonia de algumas obrigações diminuam sua vida.” -
+        <a href="https://www.companhiadasletras.com.br/autor.php?codigo=00477" target="_blank">Susan Sontag</a>
+    </blockquote>
+    <a href="https://www.daiaratukano.com/bio" target="_blank"><img width="1600" height="200"
+            src="https://i0.wp.com/followthecolours.com.br/wp-content/uploads/2023/01/ftcmag-Daiara-Tukano.jpg?resize=1296%2C700&ssl=1đ"></a>
+    <br>
+    <a href="https://followthecolours.com.br/daiara-tukano-artista-indigena-se-destaca-entre-as-exposicoes-em-sao-paulo/"
+        target="_blank"
+        alt="padrão gráfico cultura indígena, em tons gradientes  verde, laranja e azul, da artista visual Daiara Tukano"><strong><small>Detalhes
+                da obra de Daiara Tukano e clicando na figura você acessa o site da
+                artista.</strong></small></a>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <p><strong>HTML</strong>, ou Hypertext Markup Language, é a linguagem padrão utilizada para criação e estruturação
+        de páginas na web.
+        Neste curso, vamos explorar os principais conceitos do HTML e como utilizá-los na prática.</p>
+    <h3 id="inicio">Índice</h3>
+    <ol>
+        <li><a href="#Surgimento">Surgimento da Internet e seus
+                precursores e protagonistas</a></li>
+        <li><a href="#Como Funciona">Como Funciona o HTML</a></li>
+        <li><a href="#Ferramentas">Ferramentas Utilizadas</a></li>
+        <li><a href="#Inspetor">Usando o Inspetor de Elementos</a></li>
+        <li><a href="#Estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#Tags">Falando sobre Tags</a></li>
+        <li><a href="#Atributos">Atributos básicos</a></li>
+        <li><a href="#Executando">Executando uma página HTML</a></li>
+        <li><a href="#Textos">Textos</a></li>
+        <li><a href="#Listas">listas Ordenadas e Ordenadas</a></li></a></li>
+        <li><a href="#Links">Links</a></li>
+        <li><a href="#Considerações">Considerações Finais</a></li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <h3 id="Surgimento">1.<u> Surgimento da Internet e seus protagonistas</u></h3>
+    <p>A Internet é uma rede mundial de computadores que permite a conexão e troca de informações entre pessoas e
+        dispositivos em todo o mundo. A história da Internet remonta aos anos 60, quando surgiram os primeiros esforços
+        para conectar computadores e compartilhar informações entre eles.
+    <p>Nessa época, pesquisadores como <a
+            href="https://image.slidesharecdn.com/20090922week3interactiondesignhistoryfinal-100104171025-phpapp01/85/slide-28-638.jpg"
+            target="_blank">J.C.R.Licklider</a> que propôs o conceito de uma "rede de computadores intergaláctica" e <a
+            href="https://static01.nyt.com/images/2017/04/15/business/15jp-taylor-obit-1/15jp-taylor-obit-1-jumbo.jpg?quality=75&auto=webp"
+            target="_blank">Robert Taylor</a> ambos pesquisadores da <a href="https://pt.wikipedia.org/wiki/ARPANET"
+            target="_blank">ARPANET</a> orgão governamental, cujo objetivo inicial deu lugar cada vez mais para o que
+        depois veio se consolidar como compartilhamento
+        de informações em escala global.
+
+    <P>Um pouco depois, é a vez de <a href="https://tecnoblog.net/especiais/tim-berners-lee-futuro-web/"
+            target="_blank">Tim
+            Berners-Lee</a> vislumbrar a possibilidade de unir hypertexto e protocolos TCP/ IP e iniciar a criação da
+        <abbr title="World Wide Web">WWW</abbr>.
+        A partir daí, surgiram diversas tecnologias e linguagens que ajudaram a moldar a internet como a
+        conhecemos hoje. Grandes nomes surgiram até nossos dias, mas vamos destacar o de Steve Jobs, criador da APPLE e
+        Bill Gates.
+    <p><a href="https://youtu.be/Tafu7c1DXLI" target="_blank">Bill Gates</a> é um empresário e filantropo americano, que
+        ficou famoso por ser o co-fundador da Microsoft, uma das
+        maiores empresas de tecnologia do mundo. Gates é considerado uma das pessoas mais influentes da história da
+        tecnologia, sendo responsável por ajudar a criar e popularizar o uso de computadores pessoais em todo o mundo.
+        Além disso, Gates também é conhecido por sua filantropia, tendo doado bilhões de dólares para causas como a
+        erradicação da poliomielite e o combate à pobreza. Atualmente, ele é um dos homens mais ricos do mundo e
+        continua a ser uma figura importante no mundo dos negócios e da tecnologia.</p>
+    <p><a href="https://youtu.be/8WggI4cb6e4" target="_blank">Steve Jobs</a> ficou conhecido como um dos fundadores da
+        Apple Inc., empresa responsável por revolucionar a indústria
+        de tecnologia com produtos como o Macintosh, iPod, iPhone e iPad. Além
+        disso, Jobs também foi um visionário e líder carismático, que se destacava pela sua habilidade de inspirar e
+        motivar as pessoas ao seu redor. Apesar de sua morte prematura em 2011, seu legado continua a inspirar e
+        influenciar a indústria de tecnologia e o mundo dos negócios até os dias de hoje.</p>
+    <p>Mas não podemos deixar de registrar as contribuições das primeiras mulheres envolvidas nos estudos de ciência da
+        computação e do que viria a ser a Internet. Por isso deixamos aqui a imagem onde você pode clicar e ter acesso a
+        uma página especial com mais e merecidas informaçoes sobre suas participações
+    </p>
+    <a href="especial.html"><img width="600"
+            src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*rGat46iEGxucAJ-ZB9_Wzg.jpeg"
+            alt="imagem em ilustração de Ada Lovelace usando um laptop"></a>
+    <br>
+    <small>Crédito da imagem: Mashable Composite Alfred Edward Chalon/Science & Society Picture Library</small>
+    <br>
+    <br>
+    <a a href="especial.html"><small><strong>Clique na imagem ou aqui para a página
+                especial</strong></small></a>
+    <br>
+    <br>
+    <small><a href="#inicio">voltar</a></small>
+    <br>
+    <br>
+    <br>
+
+    <h3 id="Como Funciona">2.<u>Como funciona o HTML</u><sub>(HyperText Markup Language)</sub></h3>
+    <p>HTML é a <marK style="background-color:aqua;">linguagem de marcação de texto</marK>
+        padrão utilizada para criar páginas na web. O <abbr title="HyperText Markup Language">HTML</abbr>funciona a
+        partir de uma estrutura básica que consiste em
+        elementos, tags e atributos. Os elementos são os
+        blocos de construção básicos da página, como títulos, parágrafos, imagens e links. As tags são usadas para
+        definir esses elementos e podem ter atributos que fornecem informações adicionais sobre o elemento.
+    </p>
+    <br>
+    <small><a href="#inicio">voltar</a></small>
+    <br>
+    <br>
+    <br>
+
+    <h3 id="Ferramentas">3.<u> Ferramentas utilizadas</u></h3>
+    <p>Existem diversas ferramentas disponíveis para o desenvolvimento de páginas em HTML. Entre as mais populares,
+        estão editores de texto simples como o <mark style="background-color:aqua;">Bloco de Notas</mark>
+        (Windows) ou <mark style="background-color:aqua;">TextEdit</mark> (Mac),
+        até editores de texto mais avançados como o <mark style="background-color: aqua;">Visual Studio
+            Code</mark> ou o <mark style="background-color: aqua;">Sublime Text</mark>. Além disso, há diversos
+        editores online que permitem criar páginas HTML diretamente no navegador, como o <mark
+            style="background-color:aqua;">
+            CodePen</mark> e o <mar style="background-color: ghostwhite;">JSFiddle</mar>.</p>
+
+    <a href="https://github.com/topics/sublime?l=html" target="_blank"><img width="150"
+            src="https://repository-images.githubusercontent.com/552086961/8f8a43e1-cf63-4ab2-8486-c686c7ef67d9"
+            alt="logo do editor de texto sublime text"></a>
+    <a href="https://blog.cloudanalogy.com/10-features-of-vs-code-every-developer-should-know/" target="_blank"><img
+            width="150" target="_blank"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo5N5FZL-q62CyQMu2DR9xD9yvHkAkJwWJj0NpYk6pI-E4QWz0FZ8BAU14a8ZQ6M23Yks&usqp=CAU"
+            alt="logo do Visual Studio Code"></a>
+    <a href="https://liag.ft.unicamp.br/2022/05/codepen/" target="_blank"><img width="150"
+            src="https://liag.ft.unicamp.br/wp-content/uploads/2022/05/codepen_logo.png"
+            alt="logo do editor online  codepen"></a>
+    <a href="https://www.codigofonte.com.br/ferramentas-online/jsfiddle" target="_blank"><img width="150"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZHbr71DEwtLXkl2r4y6y4y7pvZA-EKsC9ww&usqp=CAU"
+            alt="logo do editor online  jsfiddle"></a>
+    <br>
+    <br>
+    <small><a href="#inicio">voltar</a></small>
+    <br>
+    <br>
+    <br>
+
+    <h3 id="Inspetor">4.<u> Usando o Inspetor de Elementos</u></h3>
+    <p>O Inspetor de Elementos é uma ferramenta presente em todos os navegadores modernos que permite visualizar e
+        editar o código HTML de uma página em tempo real. Ele é útil para entender como as páginas são construídas e
+        para fazer ajustes e correções na página. Para acessar o Inspetor de Elementos, basta clicar com o botão direito
+        do mouse em qualquer elemento da página e selecionar "Inspecionar elemento" ou simplesmente "Inspecionar"
+        conforme o navegador.</p>
+    <img width="600" src="img/inspetor01.png"
+        alt="interface gráfica do usuário, botão direito na página do buscador google para acessar o inspetor de elemento"></a>
+    <p><small><strong><i>Fig.1 - clique com o botão direito do mouse para encontrar a ferramenta.</i></strong></small>
+    </p>
+    <br>
+    <img width="600" src="img/inspector 2.png"
+        alt="interface gráfica do usuário, com acaixa do inspector de elementos aberta"></a>
+    <p><small><strong><i>Fig.2 - inspecione os elementos do documento na caixa do lado direito.</i></strong></small></p>
+    <br>
+    <small><a href="#inicio">voltar</a></small>
+    <br>
+    <br>
+    <br>
+
+    <h3 id="Estrutura">5.<u>Estrutura básica do HTML</u></h3>
+    <p>A estrutura básica do HTML consiste em um documento HTML que inclui a declaração do tipo de documento
+        &lt;!DOCTYPE html&gt;, a tag &lt;html&gt; que envolve todo o documento, e as seções &lt;head&gt; e &lt;body>&gt;
+        que definem o cabeçalho e o corpo da página.
+    <pre><font style="color: indigo;" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+	&lt;!DOCTYPE html&gt;
+	&lt;html&gt;
+	 &lt;head&gt;
+	    &lt;title&gt;Título da Página&lt;/title&gt;
+	 &lt;/head&gt;
+	&lt;body&gt;
+	Conteúdo da Página
+	&lt;/body&gt;
+	&lt;/html&gt;
+    </font></pre>
+    <small><a href="#inicio">voltar</a></small>
+    <br>
+    <br>
+    <br>
+
+    <h3 id="Tags">6.<u> Falando sobre Tags</u></h3>
+    <p>As tags são elementos básicos do HTML, e são utilizadas para indicar ao navegador como exibir o conteúdo da
+        página. Cada tag possui um nome e pode ter atributos que modificam seu comportamento ou aparência. As tags podem
+        ser de abertura, como &lt;p&gt;, ou de fechamento, como &lt;/p&gt;, ou ainda, tags auto-fechadas, como
+        &lt;img&gt; ou &lt;input&gt;. Exemplo de código:</p>
+    <p>Tudo entre as tags vai ser executado conforme a interpretação do navegador.
+
+    <p>&lt;strong&gt;negrito&lt;/Strong&gt; o que for escrito entre as tags fica em <strong> negrito</strong></p>
+    &lt;i&gt;&lt;/i&gt; o que estiver entre as tags ficará em <i>itálico</i>
+    <p><strong><i>(Ambas exemplos de tags com fechamento)</i></strong></p>
+    <p>Já as tags &lt;img&gt;, &lt;input&gt;,&lt;br&gt;, &lt;hr&gt; são exemplos de tags sem fechamento, ou auto
+        auto-fechadas.</p>
+
+    <p>
+    <ul>
+        <li>&lt;input&gt; é uma tag sem fechamento que inseri um campo de preenchimento.</p>
+            &lt;input "type=text”&gt;&lt;input type=“number”&gt; onde "text" e "number" atribuem o tipo de preenchimento
+            </p>
+            <p>Exemplos de Código:</p>
+            <p>&lt;p&gt;Este é um parágrafo de exemplo.&lt;p&gt;</p>
+            <p>&lt;input "type=text"&gt;</p> vai gerar: <sub>clique na caixa </sub> <input type="text">
+            <p>&lt;input "type=number"&gt;</p> vai gerar: <sup>clique na caixa </sup><input type="number">
+        </li>
+        <p>
+            <li> Para utilizar esses textos de indicação e/ou símbolos (como no caso de
+                marca registrada ao lado da DIO no título da página), menores acima ou abaixo no meio da frase, a
+                título de exemplicação utilzei as tag &lt;sub&gt;cique na caixa&lt;/sub&gt; que gerou <sub
+                    style="color: brown;"><strong>
+                        clique na caixa</strong></sub> e &lt;sup&gt;cique na caixa&lt;/sup&gt; que gerou <sup
+                    style="color: brown;"><strong>clique na caixa</strong></sup>
+                respectivamente. Bem como, abri depois da tag de parágrafo para que esse texto ficasse de tamnaho
+                menor, para destacar o presente parágrafo como uma explicação. Fiz isso par cumprir uma sugestão de
+                pesquisa posterior as aulas do curso, para a entrega do desafio.</font>
+            </li>
+        </p>
+        <p>
+            <li>A tag &lt;font&gt; que tem fechamento &lt;/font&gt; vai ser acrescentada depois da tag
+                parágrafo com a atrtibuição <i>style="font-size: small;"</i>. Mas podemos também, dentro da própria tag
+                de parágrafo atribuir <i>style="color: blue;"</i> como fiz para modificar a cor do texto agora. Abaixo,
+                expondo as duas formas de codificação, apenas utilizando o HTML simples (sem o CSS) ficou assim:
+                <p style="color: indigo;">
+                    <font style="font-size: small;"><strong>&lt;p style="color: indigo;"&gt;&lt;font style="font-size:
+                            small;"></strong>(Para utilizar
+                        esses textos de indicação e/ou símbolos (como no caso de marca registrada ao lado da DIO no
+                        título
+                        da página), menores acima ou abaixo no meio da frase,...para entrega do desfio.)
+                        <strong>&lt;/font&gt;&lt;/p&gt;</strong>
+                    </font>.
+            </li>
+        </p>
+        <p> Mas também e mais simples, pode ser como o seguinte:</p>
+        <p style="color: indigo; font-size: small;"><strong>&lt;p style="color:
+                indigo;"&gt;&lt;strtong&gt;</strong>(Para utilizar
+            esses textos de indicação e/ou símbolos (como no caso de marca registrada ao lado da DIO no título da
+            página), menores acima ou
+            abaixo no meio da frase,...para entrega do desfio.)<strong>&lt;/strong&gt;&lt;/p&gt;</strong>.</p>
+        <p>
+            <li>Já a tag &lt;blockquote&gt;&lt;/blockquote&gt;, é usada para iserir citações como a do início dessa
+                página.
+        </p>
+        <blockquote>
+            &lt;blockquote&gt;"Faça coisas. Seja curioso, persistente. Não espere por um empurrão da inspiração ou
+            por um
+            beijo da sociedade na sua testa. Preste atenção. É tudo sobre prestar atenção. É tudo sobre captar o
+            máximo que
+            você puder do que está
+            por aí e não deixar que desculpas e que a monotonia de algumas obrigações diminuam sua vida.” - Susan
+            Sontag</a>&lt;/blockquote&gt;</li>
+
+            <p>
+                <li>Por último e por hora, também busquei a tag &lt;del&gt;&lt;/del&gt; que serve para marcar um texto
+                    que foi deletado e se for o caso a &lt;ins&gt;&lt;/ins&gt; para substuí-lo, assim:
+            </p>
+            <p>&lt;p&gt;para esse exemplo vou escrever a palavra &lt;del&gt;Perdão&lt;/del&gt;
+                &lt;ins&gt;Amor&lt;/ins&gt;&lt;/p&gt; resultando assim: </p>
+            <p style="color: indigo;">
+                <font style="font-size: larger;"><strong>para esse exemplo vou escrever a palavra <del>Perdão</del>
+                        <ins>Amor!</ins></strong></font>
+            </p>
+            <small>(Dessa vez, utilizei a tag &lt;font&gt;&lt;/font&gt; atribuindo um tamanho maior ou
+                "larger")</small></li>
+            <p>
+                <li>Também utilizei a tag <strong>&lt;iframe&gt;</strong> para inserir vídeos que podem vistos na
+                    própria
+                    página, no caso na
+                    página especial. Exmplo a seguir, onde se abrea tag e colamos o sódigo de incorporação que copiamos
+                    no site
+                    original do vídeo, comunmente clicando com o botão direito sobre o vídeo:
+            </p>
+            <p style="color: indigo;">&lt;iframe width="600" height="400"
+                src="https://www.youtube.com/embed/GtIIaTeMspU" title="Carol Shaw: A Look At Video Games&#39; First
+                Female Developer | #InternationalWomensDay" frameborder="0" allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+                web-share" allowfullscreen&gt;&lt;/iframe&gt;</p>
+            </p>
+            </li>
+        </blockquote>
+        <br>
+        <br>
+        <small><a href="#inicio">voltar</a></small>
+        <br>
+        <br>
+        <br>
+
+        <h3 id="Atributos">7.<u>Atributos básicos</u></h3>
+        <p>Atributos são <mark style="background-color:aqua;">informações adicionais</mark> que podem ser incluídas
+            em uma
+            tag para modificar seu comportamento ou aparência. Por exemplo, a tag &lt;img&gt; pode ter o atributo
+            <strong>"src"</strong> para indicar o caminho da imagem a ser exibida..
+        </p>
+
+        <p>Alguns exemplos de atributos básicos que utilizamos durante o curso foram:</p>
+
+        <p>o <strong>"id"</strong>, que é usado para identificar um
+            elemento em particular, atribuindo características especificas ou localizá-lo dentro de uma página</p>
+
+
+        <p>O <strong>"href"</strong>, que é usado para especificar o destino de um link. Além disso, existem outros
+            atributos como o <strong>"src"</strong>, que é utilizado para definir o caminho de uma imagem ou vídeo;
+        </p>
+
+        <p>O <strong>"alt"</strong>, que é usado para descrever o conteúdo de uma imagem para usuários com
+            deficiência
+            visual; e o "title",
+            que é utilizado para fornecer informações adicionais sobre um elemento quando o mouse é passado sobre
+            ele.</p>
+
+        <p> A atribuição <strong>"target"</strong>é usada quando queremos encaminhar a abertura de um link em outra
+            página,
+            ela terá o valor de _blank para definir esse encaminhamento.</p>
+
+        <p>Em resumo, os Atributos Básicos do HTML são uma parte fundamental para o desenvolvimento de páginas web e
+            devem
+            ser conhecidos por todos os desenvolvedores web.</p>
+
+        A seguir, exemplo de como posso utilizar atribuições para imagens, links e ancoragens:
+
+        <p>A) Abrimos a tag &lt;img&gt; e atribuimos a ela o <strtong>&lt;scr&gt;</strtong> que conterá o endereço
+            de sua
+            hospedagem na web: </p>
+        <p style="color: indigo"> &lt;img
+            src="https://repository-images.githubusercontent.com/552086968f8a43e1-cf63-4ab2-8486-c686c7ef67d
+            9"&gt;</p>
+        B) Podemos atribuir um tamanho à imagem através de <strong>width=""</strong>
+        <p style="color: indigo"> &lt;img width="150" src="https://repository-images.githubusercontent.com
+            552086968f8a43e1-cf63-4ab2-8486-c686c7ef67d9"&gt;</p>
+        C) Podemos ainda fornecer informações para acessibilidade através do atributo <strong>&lt;scr&gt;</strong>
+        <p style="color: indigo"> &lt;img width="150"
+            src="https://repository-images.githubusercontent.com/552086968f8a43e1-cf63-4ab2-8486-c686c7ef67d
+            9" alt="logo do editor de texto sublime text"&gt;
+        <p><small>(Exemplo da logo do sublime text que aparece no tópico 3 dessa página.)</small></p>
+        D) Poderíamos também utilizar a tag &lt;a&gt; com o atributo de localização <strong>"href"</strong>" e
+        acrescentar o
+        <strong>"target"</strong> com valor "_blank" "target="_blank" para direcionar a visualização da imagem a sua
+        página
+        externa:
+
+        <p style="color: indigo">&lt;a href="https://github.com/topics/sublime?l=html" target="_blank"&gt;&lt;img
+            width="150"
+            src="https://repository-images.githubusercontent.com/552086961/8f8a43e1-cf63-4ab2-8486-c686c7ef67d9"
+            alt="logo do editor de texto sublime text"&gt;clique aqui para ver a imagem&gt;</p> todo o código
+        escrito acima
+        com suas tags e atributos, cria um link que leva à imagem
+        <p><small>como a seguir:</small></p>
+        <a href="https://repository-images.githubusercontent.com/552086961/8f8a43e1-cf63-4ab2-8486-c686c7ef67d9"
+            target="_blank" &gt;&lt;img width="150"
+            src="https://repository-images.githubusercontent.com/552086961/8f8a43e1-cf63-4ab2-8486-c686c7ef67d9"
+            alt="logo do editor de texto sublime text">clique aqui para ver a imagem</a></p>
+        <p>E para dar o ultimo exemplo de atribuição, usaremos o <strong>&lt;id&gt;</strong> para identificar, por
+            exemplo
+            no indice dessa página cada um dos seus 12 tópicos, por exmplo:</p>
+        <p style="color: indigo;">&lt;h3 id="inicio"Índice&gt;&lt;/h3&gt;</p>
+        <P>Isso faz com que cada ve que tocamos em voltar, como logo abaixo, possamos acessar ao Índice nesta
+            página. No
+            ítem 11, faleremos mais sobre o que está por tras desse atributo que possibilita voltar ao índice. </P>
+
+        <br>
+        <br>
+        <small><a href="#inicio">voltar</a></small>
+        <br>
+        <br>
+        <br>
+
+        <h3 id="Executando">8.<u> Executando uma página HTML</u></h3>
+
+        <p>Para executar um arquivo HTML, basta salvar o arquivo com a extensão .html e depois abrir o arquivo no
+            navegador
+            de internet. Para isso, clique com o botão direito do mouse sobre o arquivo HTML e selecione "Abrir com"
+            e
+            escolha o navegador de sua preferência. Alternativamente, você pode abrir o navegador e arrastar o
+            arquivo HTML
+            para dentro da janela do navegador.</p>
+
+        <p>Se o arquivo for aberto localmente, o navegador executará o HTML no modo de exibição off-line. Se for
+            aberto a
+            partir de um servidor, o navegador fará uma solicitação HTTP para recuperar o conteúdo HTML. </p>
+        <p>Exemplo: copie o código abaixo, abra um bloco de notas, cole o código e salve como
+            <strong>index.html</strong>.
+            Depois clique com o botão direito, "abrir com" e escolha a opção de navegador de sua preferência
+        </p>
+        <p> &lt;!DOCTYPE html&gt;
+        <p>&lt;html&gt;
+        <p> &lt;head&gt;</p>
+        <p>&lt;title&gt;Minha Página&gt;/title&gt;</p>
+        <p>&lt;/head&gt;</p>
+        <p> &lt;body&gt;</p>
+        <p>&lt;h1&gt;Olá, mundo!&lt;/h1&gt;</p>
+        <p>&lt;p&gt;Este é um exemplo de execução de uma página HTML.&lt;/p&gt;</p>
+        <p>&lt;/body&gt;</p>
+        <p>&lt;/html&gt;</p>
+        <p><a href="executando.html">cique aqui para ver conferir seu resultado </a></p>
+        <br>
+        <small><a href="#inicio">voltar</a></small>
+        <br>
+        <br>
+        <br>
+
+        <h3 id="Textos">9.<u> Textos</u></h3>
+        <p>O HTML permite adicionar vários tipos de texto à página, incluindo cabeçalhos, parágrafos, listas e
+            muitos
+            outros. O texto é adicionado por meio de tags como as mais simples e que já apareceram em outros
+            exemplos como:
+            &lt;p&gt; para
+            parágrafos, &lt;h1&gt; a &lt;h6&gt; para títulos e subtítulos, &lt;strong&gt;&lt;/strong&gt; negrito,
+            &lt;i&gt;&lt;/i&gt; itálico, &lt;sub&gt;&lt;/sub&gt; e &lt;sup&gt;&lt;/sup&gt; para s[imbolos ou texto
+            abaixo e
+            acima para efeito de destaque,]. No próximo tópico veremos especificamente &lt;ul&gt; para listas
+            ordenadas,
+            &lt;ol&gt; para listas não ordenadas&lt;li&gt; para ítens de ums lista.
+        <p>Veremos abaixo mais exemplos de outras que já foram vistas anteriormente, mas agora com intuito de vê-las
+            dentro
+            do contexto de sua aplicado em textos:</p>
+
+        <p>Exemplos:</p>
+        <ul>
+            <li><strong>Títulos de h1 a h6</strong></li>
+            <p style="color:indigo ;">&lt;h1&gt;Título de Exemplo&lt;/h1&gt;</p>
+            <h1>Título de Exemplo</h1>
+            <p style="color:indigo ;">&lt;h2&gt;Título de Exemplo&lt;/h2&gt;</p>
+            <h2>Título de Exemplo</h2>
+            <p style="color:indigo ;">&lt;h3&gt;Título de Exemplo&lt;/h3&gt;</p>
+            <h3>Título de Exemplo</h3>
+            <p style="color:indigo ;">&lt;h4&gt;Título de Exemplo&lt;/h4&gt;</p>
+            <h4>Título de Exemplo</h4>
+            <p style="color:indigo ;">&lt;h5&gt;Título de Exemplo&lt;/h5&gt;</p>
+            <h5>Título de Exemplo</h5>
+            <p style="color:indigo ;">&lt;h6&gt;Título de Exemplo&lt;/h6&gt;</p>
+            <h6>Título de Exemplo</h6>
+            <li><strong>Tag &lt;font&gt;&lt;/font&gt; e suas variantes</strong></li>
+            <p style="color:indigo ;">&lt;p&gt;&lt;font style="small"&gt;Exemplo para tamanho de fonte
+                pequena&lt;/font&gt;&lt;/p&gt;</p>
+            <p style="color: blue;">
+                <font style="font-size: small;">Exemplo para tamanho de fonte pequena</font>
+            </p>
+            <p style="color:indigo ;">&lt;p&gt;&lt;font style="large"&gt;Exemplo para tamanho de fonte
+                grande&lt;/font&gt;&lt;/p&gt;</p>
+            <p style="color: blue;">
+                <font style="font-size: large;">Exemplo para tamanho de fonte grande</font>
+            </p>
+            <p style="color:indigo ;">&lt;p&gt;&lt;font style="x-larger"&gt;Exemplo para tamanho de fonte extra
+                grande&lt;/font&gt;&lt;/p&gt;</p>
+            <p style="color: blue;">
+                <font style="font-size: x-large;">Exemplo para tamanho de fonte extra grande</font>
+            </p>
+            <small style="color: brown;">(lembrando que podemos inserir o atributo 'style="variação de tamanho"',
+                diretamente como atributo da tag
+                &lt;p&gt;. E que também não seria o caso de como não de título ou subtítulo. Também há outra forma
+                no caso
+                do atributo 'small' que é
+                uma tag, exemplo deste parágrafo, no qual a utilizamos
+                &lt;small&gt;&lt;/small&gt;).</small>
+            <p>
+                <li>Sublinhado Tag &lt;u&gt;&lt;/u&gt;</li>
+            </p>
+            <br>
+            &lt;u&gt;sublinhado aqui&lt;/u&gt;
+            <p style="color: indigo;"><u>sublinhado aqui</u></p>
+            &lt;p&gt;&lt;u&gt;exemplo de &lt;u&gt; sublinhado aqui&lt;/u&gt; no meio do texto&lt;/p&gt;
+            <p style="color: indigo;">Exemplo de <u>sublinhado aqui</u> no meio do texto</p>
+            <br>
+            <p>
+                <li>Marcador de Texto Tag &lt;mark&gt;&lt;/mark&gt;</li>
+            </p>
+            &lt;mark&gt;marcado aqui&lt;/mark&gt;
+            <p style="color: indigo;"><mark>marcado aqui</mark></p>
+            &lt;p&gt;&lt;u&gt;exemplo de &lt;u&gt; marcado aqui&lt;/mark&gt; no meio do texto&lt;/p&gt;
+            <p style="color: indigo;">Exemplo de <mark>marcado aqui</mark> no meio do texto</p>
+            </Ol>
+            <br>
+            <br>
+            <small><a href="#inicio">voltar</a></small>
+            <br>
+            <br>
+            <br>
+
+            <h3 id="Listas">10.<u> Listas ordenadas e não ordenadas</u></h3>
+            <p>As listas são usadas para organizar e apresentar informações em ordem. Existem dois tipos principais
+                de
+                listas em HTML: listas ordenadas e não ordenadas.
+
+            <p>As listas não ordenadas são usadas para apresentar itens em uma lista que não tem uma ordem
+                específica,
+                enquanto as listas ordenadas são usadas para apresentar itens em uma lista que segue uma ordem
+                específica.
+            </p>
+            <p>Exemplo de lista não ordenada:
+            <p>&lt;ul&gt;
+            <p>&lt;li&gt;Item 1&lt;/li&gt;</p>
+            <p>&lt;li&gt;Item 2&lt;/li&gt;</p>
+            <p>&lt;li&gt;Item 3&lt;/li&gt;</p>
+            &lt;/ul&gt;</p>
+            </p>
+            <ul style="color: indigo;">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            </p>
+            <p>Exemplo de lista ordenada:
+            <p>&lt;ol&gt;
+            <p>&lt;li&gt;Item 1&lt;/li&gt;</p>
+            <p>&lt;li&gt;Item 2&lt;/li&gt;</p>
+            <p>&lt;li&gt;Item 3&lt;/li&gt;</p>
+            &lt;/ol&gt;</p>
+            </p>
+            <ol style="color: indigo;">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+            <br>
+            <br>
+            <small><a href="#inicio">voltar</a></small>
+            <br>
+            <br>
+            <br>
+
+            <h3 id="Links">11.<u> Links</u></h3>
+            <p>Para criar links em HTML, utilizamos a tag <a>, que pode ser utilizada para linkar para outras
+                    páginas ou
+                    para seções dentro da própria página. O endereço do link é especificado no atributo href.
+            </p>
+            <p>Os links são usados para conectar uma página da web a outra página ou recurso na web. A tag <a> é
+                    usada para
+                    criar um link e o atributo href é usado para especificar o URL de destino do link.</p>
+            <ul>
+                <li>&lt;a href="https://www.google.com">Link para o Google&lt;/a&gt;
+                    <p><a href="https://www.google.com">Link para o Google</a><small> (este link abre a página do
+                            buscador
+                            do google
+                            diretamente e teremos que voltar para cá na barra do
+                            navegador.)</small>
+                </li>
+                </p>
+                &lt;a href="https://www.google.com" target="_blank"> E este Link para o Google&lt;/a&gt;
+                <p><a href="https://www.google.com" target="_blank"> E este Link para o Google</a><small> (este link
+                        abre a
+                        página do buscador do google em uma nova aba.)</small></p>
+                <li>
+                    <p>Este link abre uma seção dentro da mesma página:</p>
+                    &lt;small&gt;&lt;a href="#inicio"&gt;voltar par o índice&lt;/a&gt;&lt;/small&gt;
+                    <br>
+                    <small><a href="#inicio">voltar para o indíce</a></small>
+                    <p>O código acima criou um link que leva o usuário para o ínidice da mesma página. O ID "inicio"
+                        foi
+                        definido no
+                        elemento &lt;h3 id="#inicio"&gt;Índice&lt;h3&gt; que contém o título da seção e é
+                        referenciado no
+                        valor do
+                        atributo href do link.</p>
+                <li>Além disso, é possível adicionar outros atributos aos links, como o atributo target, que define
+                    onde o
+                    link
+                    deve ser aberto. O valor "_blank" abre o link em uma nova janela ou aba do navegador, enquanto o
+                    valor
+                    "_self" (por padrão não há necessidade de utilizá-lo) faz com que o link seja aberto na mesma
+                    janela ou
+                    aba, mas
+                    não precisamos utilizá-lo.</p>
+                    <p>Por exemplo, os links abaixo levam a outras página do nosso projeto, como a especial.html e a
+                        executando.html. Note
+                        que neste caso não utilizamos o sinal '#':</p>
+                    &lt;a href="especial.html" traget="_blank"&gt;&lt;small&gt;página
+                    especial&lt;/small&gt;&lt;/a&gt;
+                    <br>
+                    <a a href="especial.html" target="_blank"><small>página especial</small></a>
+                    <br>
+                    <br>
+                    e
+                    <br>
+                    <br>
+                    &lt;a href="executando.html" traget="_blank"&gt;&lt;small&gt;página
+                    especial&lt;/small&gt;&lt;/a&gt;
+                    <a href="executando.html" target="_blank"><small>executando um HTML</small></a>
+                </li>
+                <p><strong>Os links de Imagem podem ser:</strong></p>
+                <ul>
+                    <li>Com endereço externo onde a imagem está armazenada na internet:
+                        &lt;img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsEU0kqMHqBC2pI66VKvZ3XzU1ldxgiWQWEfWLrOrQmt8WS3TJjp_Ehf5vVXg06H3gYBk&usqp=CAU"&gt;
+                        </p>
+                        <br>
+                        <br>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsEU0kqMHqBC2pI66VKvZ3XzU1ldxgiWQWEfWLrOrQmt8WS3TJjp_Ehf5vVXg06H3gYBk&usqp=CAU"
+                            style="border: 2px;">
+                    </li>
+                    <p>
+                        <li>Ou Armazenados no projeto:
+                            &lt;img src="widith="100" height="100" src="img/Ada-Lovelace-iQ-980x653-1.jpg"
+                            style="border:
+                            2px;"&gt;
+                            <br>
+                            <br>
+                            <img widith="100" height="180" src="img/Ada-Lovelace-iQ-980x653-1.jpg" style="border: 2px;">
+                        </li>
+                    </p>
+                    <br>
+
+                </ul>
+            </ul>
+
+            <br>
+            <br>
+            <small><a href="#inicio">voltar</a></small>
+
+            <h3 id="Considerações">12.<u> Considerações finais</u></h3>
+            <p>Neste curso, vimos os conceitos básicos de HTML e como criar páginas da web usando esta linguagem.
+                Aprendemos sobre a estrutura básica de uma página HTML, tags, atributos, listas e links.</p>
+            <p>Com este conhecimento, você pode começar a criar suas próprias páginas da web usando HTML, pois temos
+                a
+                possibilidade de criá-las
+                de forma simples e estruturada.</p>
+            <p>À medida que se avança no aprendizado do HTML, é possível explorar conceitos
+                mais avançados e combinar o HTML com outras linguagens, para criar páginas
+                mais interativas e estilizadas.</p>
+            <small><a href="#inicio">voltar</a></small>
+            <br>
+            <br>
+            <br>
+            <footer class="footer">
+                <p>©SoniaBGS março 2023</p>
+            </footer>
+
+</body>
+
+</html>
