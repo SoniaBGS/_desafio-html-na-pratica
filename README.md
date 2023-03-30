@@ -37,63 +37,63 @@ VS Code,extensões:
 * Usando o Inspetor  Elementos (Recurso disponível no navegador.)
  
 #### Estrutura básica do HTML
-* <html>
-* <head></head> - informações carregadas antes do usuário
-* <body></body> - informações que aparecem para o usuário.
+* &lt;html&gt;
+* &lt;head&gt;&lt;/head&gt; - informações carregadas antes do usuário
+* &lt;body&gt;&lt;/body&gt; - informações que aparecem para o usuário.
 
 #### Falando sobre Tags                                                                   
-Tudo entre as tags vai ser executado conforme a interpretação do navegador.                                                                      
-<strong></Strong> negrito <i></i> itálico - ex tags com fechamento
+* Tudo entre as tags vai ser executado conforme a interpretação do navegador.                                                                      
+* &lt;strong&gt;&lt;/Strong&gt; negrito&gt;<&lt;i&gt&lt;/i&gt; itálico - ex tags com fechamento
 
-<input> tag sem fechamento que inseri um campo de preenchimento.
-<input type=“text”> atribui o tipo de preenchimento
-<input type= “number”>
+* &lt;input&gt; tag sem fechamento que inseri um campo de preenchimento.
+* &lt;input type=“text”&gt; atribui o tipo de preenchimento
+* &lt;input type= “number”&gt;
 
-* Atributos básicos das Tags
-* <strong id=“titulo”> identificador deste elemento para o javascripty
-* <strong style=”titulo"> style serve para o css aplicar estilos no elemento
-* <strong class=”titulo principal"> formatar padrão uma classe de elementos
+#### Atributos básicos das Tags
+* &lt;strong id=“titulo”&gt; identificador deste elemento para o javascripty
+* &lt;strong style=”titulo"&gt; style serve para o css aplicar estilos no elemento
+* &lt;strong class=”titulo principal"&gt; formatar padrão uma classe de elementos
 
-<input type=“text”> insere um campo de preenchimento de acordo com o tipo da informaçao
-<input type=“number”>
-<input type=“color”>
+* &lt;input type=“text”&gt; insere um campo de preenchimento de acordo com o tipo da informaçao
+* &lt;input type=“number”&gt;
+* &lt;input type=“color”&gt;
 
-<img / kjdkslj.jpg”> endereço de arquivos de imagem
-<img src=“https://klsfjdhfieh.com”>
-<img width=“250” src=“https://klsfjdhfieh.com”>
+* &lt;img / kjdkslj.jpg”&gt; endereço local de arquivos de imagem
+* &lt;img src=“https://klsfjdhfieh.com”&gt;
+* &lt;img width=“250” src=“https://klsfjdhfieh.com”&gt;
 
-<br> espaço entre as linhas
-<hr /> linha separadora
+* &lt;br&gt; espaço entre as linhas
+* &lt;hr/&gt; linha separadora
 
-<body bgcolor=“#8792” ou “nome da Cor”> mudar cor de fundo. Não funciona a partirdo html5
-<body background=“endereço de imagem”> imagem no plano de fundo em .gif ou jpg
+* &lt;body bgcolor=“#8792” ou “nome da Cor”&gt; mudar cor de fundo. Não funciona a partirdo html5
+* &lt;body background=“endereço de imagem”&gt; imagem no plano de fundo em .gif ou jpg
  
 #### Executando uma página HTML
-(exemplo no  index.html)
+* (exemplo no  index.html)
   
 #### Falando sobre textos
- h1, h2, h3, h4, h5, títulos com (fechamento)
- <p> parágrafo</p>
- <i> italico</i> 
- <u> sublinhado</u> 
- <strong>negrito</strong> 
- <mark> marca texto</mark>
- <u> sublinhar </u>
- <sup>*&*#r®</sup>
- <small>voltar</small>
+ * h1, h2, h3, h4, h5, títulos com (fechamento)
+ * &lt;p&gt; parágrafo&lt;/p&gt;
+ * &lt;i&gt; italico&lt;/i&gt; 
+ * &lt;u&gt; sublinhado&lt;/u&gt; 
+ * &lt;strong&gt;negrito&lt;/strong&gt; 
+ * &lt;mark&gt; marca texto&lt;/mark&gt;
+ * &lt;u&gt sublinhar &lt;/u&gt;
+ * &lt;sup&gt;*&*#r®&lt;/sup&gt;
+ * &lt;small&g;tvoltar&lt;/small&gt;
   
 #### Lista ordenada e não  ordenada                             
-(Usar li para as enumerações dentro de ol ou ul.)
+* (Usar li para as enumerações dentro de ol ou ul.)
 
 #### Links
- <a href=“endereço do site”>Nome que será exibido</a> abre na mesma aba
- <a href=“endereço do site” target=“_blank”>Nome que será exibida</a> abre outra aba
- <a href=“endereço do site” title=“clique e conheça”>Nome que será exibido</a> abre um tool tip que ajuda a navegação
-**Ancoragem: usada para buscar na página um item marcado
- <a href=“ ”></a>
- <ul>
- <li><a href=“#assunto1”> Assunto 1</a>
- </li></ul>
+* &lt;a href=“endereço do site”&gtNome que será exibido&lt;/a&gt abre na mesma aba
+* &lt;a href=“endereço do site” target=“_blank”&gtNome que será exibida&lt;/a&gt abre outra aba
+* &lt;a href=“endereço do site” title=“clique e conheça”&gtNome que será exibido&lt;/a&gtabre um tool tip que ajuda a navegação
+* Ancoragem: usada para buscar na página um item marcado
+* &lt;a href=“ ”&gt;&lt;/a&gt;
+* &lt;ul&gt;
+* &lt;li&gt;&lt;a href=“#assunto1”&gt; Assunto 1&lt;/a&gt;
+* &lt;/li&gt;&lt;/ul&gt;
 
- (necessário fazer uma atrtibuição id=”” para cada título de referência, além da lista)
+*(necessário fazer uma atrtibuição id=”” para cada título de referência, além da lista)
 
